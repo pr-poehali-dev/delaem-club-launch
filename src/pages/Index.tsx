@@ -37,7 +37,7 @@ const Index = () => {
             <a href="#about" className="text-sm font-medium hover:text-[#C1DF54] transition-colors">О клубе</a>
             <a href="#who" className="text-sm font-medium hover:text-[#C1DF54] transition-colors">Для кого</a>
             <a href="#program" className="text-sm font-medium hover:text-[#C1DF54] transition-colors">Программа</a>
-            <Button onClick={scrollToForm} className="bg-black text-white hover:bg-[#C1DF54] hover:text-black transition-all font-semibold">
+            <Button onClick={scrollToForm} className="bg-black text-white hover:bg-[#C1DF54] hover:text-black transition-all font-semibold rounded-full px-8 py-6">
               Подать заявку
             </Button>
           </div>
@@ -58,7 +58,7 @@ const Index = () => {
               а <span className="text-[#C1DF54] relative inline-block px-4">
                 делают
                 <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                  <rect x="3" y="3" width="194" height="94" rx="20" stroke="#C1DF54" strokeWidth="4" fill="none"/>
+                  <rect x="3" y="3" width="194" height="94" rx="30" stroke="#C1DF54" strokeWidth="4" fill="none"/>
                 </svg>
               </span>
             </h1>
@@ -68,7 +68,7 @@ const Index = () => {
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
                   Гибридный клуб для тех, кто хочет упаковать экспертизу, продавать дороже и выстроить системные B2B-продажи
                 </p>
-                <Button onClick={scrollToForm} size="lg" className="bg-[#C1DF54] text-black hover:bg-black hover:text-white text-lg px-10 py-5 transition-all font-semibold">
+                <Button onClick={scrollToForm} size="lg" className="bg-[#C1DF54] text-black hover:bg-black hover:text-white text-xl px-16 py-8 transition-all font-bold rounded-[2rem] shadow-lg hover:shadow-xl">
                   Подать заявку в клуб
                 </Button>
               </div>
@@ -91,14 +91,21 @@ const Index = () => {
 
             <div className="border-l-4 border-[#C1DF54] pl-6">
               <p className="text-2xl md:text-3xl font-bold leading-tight">
-                Delaem для себя.<br />
-                Delaem хорошо.<br />
                 Delaem результат.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      <div className="bg-black text-white py-6 overflow-hidden">
+        <div className="flex whitespace-nowrap animate-marquee">
+          <span className="text-3xl md:text-4xl font-bold mx-8">DELAEM · НЕ ГОВОРИМ · ДЕЙСТВУЕМ · </span>
+          <span className="text-3xl md:text-4xl font-bold mx-8">DELAEM · НЕ ГОВОРИМ · ДЕЙСТВУЕМ · </span>
+          <span className="text-3xl md:text-4xl font-bold mx-8">DELAEM · НЕ ГОВОРИМ · ДЕЙСТВУЕМ · </span>
+          <span className="text-3xl md:text-4xl font-bold mx-8">DELAEM · НЕ ГОВОРИМ · ДЕЙСТВУЕМ · </span>
+        </div>
+      </div>
 
       <section id="about" className="py-32 px-6 lg:px-12 bg-black text-white">
         <div className="container mx-auto max-w-7xl">
