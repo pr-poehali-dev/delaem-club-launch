@@ -44,43 +44,53 @@ const Index = () => {
         </div>
       </nav>
 
-      <section id="hero" className="min-h-screen flex items-center px-6 lg:px-12 pt-32">
+      <section id="hero" className="min-h-screen flex items-center px-6 lg:px-12 pt-24">
         <div className="container mx-auto max-w-7xl animate-fade-in">
-          <div className="max-w-5xl">
-            <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-bold mb-12 leading-[0.9] tracking-tight">
+          <div className="max-w-6xl">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-[0.95] tracking-tight">
               Клуб B2B-экспертов,<br />
-              которые не говорят,<br />
-              а <span className="text-[#C1DF54]">делают</span>
+              которые <span className="relative inline-block">
+                не говорят
+                <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 300 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 10C50 3 100 15 150 8C200 1 250 12 298 6" stroke="#C1DF54" strokeWidth="3" strokeLinecap="round"/>
+                </svg>
+              </span>,<br />
+              а <span className="text-[#C1DF54] relative inline-block">
+                делают
+                <svg className="absolute -bottom-3 -left-2 -right-2 w-[calc(100%+16px)]" viewBox="0 0 200 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <ellipse cx="100" cy="15" rx="95" ry="12" stroke="#C1DF54" strokeWidth="3" fill="none"/>
+                </svg>
+              </span>
             </h1>
             
-            <div className="flex flex-col md:flex-row gap-12 mb-16">
+            <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="md:w-1/2">
-                <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-8">
+                <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
                   Гибридный клуб для тех, кто хочет упаковать экспертизу, продавать дороже и выстроить системные B2B-продажи
                 </p>
-                <Button onClick={scrollToForm} size="lg" className="bg-[#C1DF54] text-black hover:bg-black hover:text-white text-lg px-12 py-6 transition-all font-semibold">
+                <Button onClick={scrollToForm} size="lg" className="bg-[#C1DF54] text-black hover:bg-black hover:text-white text-lg px-10 py-5 transition-all font-semibold">
                   Подать заявку в клуб
                 </Button>
               </div>
               
-              <div className="md:w-1/2 space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-2 h-2 bg-[#C1DF54] rounded-full mt-3 flex-shrink-0"></div>
-                  <p className="text-lg md:text-xl">Чётко понимаешь, за что тебе платят</p>
+              <div className="md:w-1/2 space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-[#C1DF54] rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-base md:text-lg">Чётко понимаешь, за что тебе платят</p>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-2 h-2 bg-[#C1DF54] rounded-full mt-3 flex-shrink-0"></div>
-                  <p className="text-lg md:text-xl">Продаёшь ценность, а не «часы и услуги»</p>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-[#C1DF54] rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-base md:text-lg">Продаёшь ценность, а не «часы и услуги»</p>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-2 h-2 bg-[#C1DF54] rounded-full mt-3 flex-shrink-0"></div>
-                  <p className="text-lg md:text-xl">Растёшь через действия, а не разговоры</p>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-[#C1DF54] rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-base md:text-lg">Растёшь через действия, а не разговоры</p>
                 </div>
               </div>
             </div>
 
-            <div className="border-l-4 border-[#C1DF54] pl-8">
-              <p className="text-3xl md:text-4xl font-bold leading-tight">
+            <div className="border-l-4 border-[#C1DF54] pl-6">
+              <p className="text-2xl md:text-3xl font-bold leading-tight">
                 Delaem для себя.<br />
                 Delaem хорошо.<br />
                 Delaem результат.
