@@ -31,7 +31,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-100">
         <div className="container mx-auto px-8 lg:px-16 py-5 flex items-center justify-between">
           <a href="#hero" className="flex items-center">
-            <img src="https://cdn.poehali.dev/files/Group 18 (1).png" alt="Delaem" className="h-8 md:h-10" />
+            <img src="https://cdn.poehali.dev/files/Group 18 (2).png" alt="Delaem" className="h-8 md:h-10" />
           </a>
           <div className="hidden md:flex items-center gap-12">
             <a href="#about" className="text-xs uppercase tracking-wider font-semibold hover:text-[#5443ff] transition-colors">О клубе</a>
@@ -563,7 +563,7 @@ const Index = () => {
 
       <footer className="py-12 px-8 lg:px-16 bg-black text-white border-t border-gray-800">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <img src="https://cdn.poehali.dev/files/Group 18 (1).png" alt="Delaem" className="h-8 md:h-10" />
+          <img src="https://cdn.poehali.dev/files/Group 18 (2).png" alt="Delaem" className="h-8 md:h-10" />
           <p className="text-gray-500 text-sm uppercase tracking-wider">
             Клуб B2B-экспертов, которые не говорят, а делают
           </p>
