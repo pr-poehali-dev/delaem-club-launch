@@ -28,7 +28,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white text-black">
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/98 backdrop-blur-sm border-b border-gray-100">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-100">
         <div className="container mx-auto px-8 lg:px-16 py-5 flex items-center justify-between">
           <a href="#hero" className="flex items-center">
             <img src="https://cdn.poehali.dev/files/Group 18 (1).png" alt="Delaem" className="h-8 md:h-10" />
@@ -52,7 +52,7 @@ const Index = () => {
               B2B ЭКСПЕРТЫ / ДЕЙСТВИЕ / РЕЗУЛЬТАТ
             </div>
             
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-12 leading-[0.9] tracking-tighter">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-12 leading-[0.9] tracking-tighter">
               Клуб B2B-экспертов,<br />
               которые <span className="text-[#5443ff]">не говорят</span>,<br />
               а <span className="relative inline-block">
@@ -102,7 +102,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-32 px-8 lg:px-16 bg-black text-white relative overflow-hidden">
+      <section id="about" className="py-40 px-8 lg:px-16 bg-black text-white relative overflow-hidden">
         <div className="absolute top-20 right-20 w-96 h-96 bg-[#5443ff] rounded-full blur-[150px] opacity-20 animate-float"></div>
         <div className="container mx-auto max-w-7xl relative">
           <div className="text-xs uppercase tracking-widest font-semibold text-gray-500 mb-12">
@@ -150,7 +150,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="who" className="py-32 px-8 lg:px-16">
+      <section id="who" className="py-40 px-8 lg:px-16">
         <div className="container mx-auto max-w-7xl">
           <div className="text-xs uppercase tracking-widest font-semibold text-gray-500 mb-12">
             АУДИТОРИЯ / УЧАСТНИКИ
@@ -186,7 +186,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-8 lg:px-16 bg-gray-50">
+      <section className="py-40 px-8 lg:px-16 bg-gray-50">
         <div className="container mx-auto max-w-7xl">
           <div className="text-xs uppercase tracking-widest font-semibold text-gray-500 mb-12">
             ЗАПРОСЫ / БОЛИ
@@ -216,7 +216,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-8 lg:px-16">
+      <section className="py-40 px-8 lg:px-16">
         <div className="container mx-auto max-w-7xl">
           <div className="text-xs uppercase tracking-widest font-semibold text-gray-500 mb-12">
             ТРАНСФОРМАЦИЯ / ДО И ПОСЛЕ
@@ -268,7 +268,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-8 lg:px-16 bg-black text-white relative overflow-hidden">
+      <section className="py-40 px-8 lg:px-16 bg-black text-white relative overflow-hidden">
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#5443ff] rounded-full blur-[150px] opacity-20 animate-float"></div>
         <div className="container mx-auto max-w-7xl relative">
           <div className="text-xs uppercase tracking-widest font-semibold text-gray-600 mb-12">
@@ -311,7 +311,57 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-8 lg:px-16 bg-gray-50">
+      <section className="py-40 px-8 lg:px-16">
+        <div className="container mx-auto max-w-7xl">
+          <div className="text-xs uppercase tracking-widest font-semibold text-gray-500 mb-12">
+            АКТИВНОСТИ / ЕЖЕМЕСЯЧНЫЙ РИТМ
+          </div>
+          
+          <h2 className="text-5xl md:text-7xl font-bold mb-24 max-w-4xl tracking-tight">
+            Ежемесячные активности клуба
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl">
+            <div className="bg-gray-50 p-10 border-l-4 border-[#5443ff] hover:shadow-lg transition-shadow">
+              <div className="text-5xl font-bold text-[#5443ff] mb-4">1</div>
+              <h3 className="text-2xl font-semibold mb-4">Вебинар по теме месяца</h3>
+              <p className="text-lg text-gray-600 font-light">Практический вебинар с готовым инструментом для применения</p>
+            </div>
+
+            <div className="bg-gray-50 p-10 border-l-4 border-[#5443ff] hover:shadow-lg transition-shadow">
+              <div className="text-5xl font-bold text-[#5443ff] mb-4">2</div>
+              <h3 className="text-2xl font-semibold mb-4">Мастермайнд / Практикум</h3>
+              <p className="text-lg text-gray-600 font-light">Общий разбор кейсов, практикум или публичный анализ с потенциальными заказчиками</p>
+            </div>
+
+            <div className="bg-gray-50 p-10 border-l-4 border-[#5443ff] hover:shadow-lg transition-shadow">
+              <div className="text-5xl font-bold text-[#5443ff] mb-4">3</div>
+              <h3 className="text-2xl font-semibold mb-4">Бадди месяца</h3>
+              <p className="text-lg text-gray-600 font-light">Рандомная встреча за кофе с участником клуба (опционально)</p>
+            </div>
+
+            <div className="bg-gray-50 p-10 border-l-4 border-[#5443ff] hover:shadow-lg transition-shadow">
+              <div className="text-5xl font-bold text-[#5443ff] mb-4">4</div>
+              <h3 className="text-2xl font-semibold mb-4">Коммитмент месяца</h3>
+              <p className="text-lg text-gray-600 font-light">Обязательное выполнение — 2 месяца невыполнения = выход из клуба</p>
+            </div>
+
+            <div className="bg-gray-50 p-10 border-l-4 border-[#5443ff] hover:shadow-lg transition-shadow">
+              <div className="text-5xl font-bold text-[#5443ff] mb-4">5</div>
+              <h3 className="text-2xl font-semibold mb-4">Специальные сессии</h3>
+              <p className="text-lg text-gray-600 font-light">Вебинары участников, партнёрские сессии, подкасты с лидерами рынка (опционально)</p>
+            </div>
+
+            <div className="bg-gray-50 p-10 border-l-4 border-[#5443ff] hover:shadow-lg transition-shadow">
+              <div className="text-5xl font-bold text-[#5443ff] mb-4">6</div>
+              <h3 className="text-2xl font-semibold mb-4">Очные мероприятия</h3>
+              <p className="text-lg text-gray-600 font-light">Бизнес-завтраки, форсайт-сессии и «умные» нетворкинги в Москве и Новосибирске</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-40 px-8 lg:px-16 bg-gray-50">
         <div className="container mx-auto max-w-7xl">
           <div className="text-xs uppercase tracking-widest font-semibold text-gray-500 mb-12">
             ТРЕБОВАНИЯ / ВХОДНОЙ БАРЬЕР
@@ -330,7 +380,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-8 lg:px-16">
+      <section className="py-40 px-8 lg:px-16">
         <div className="container mx-auto max-w-7xl">
           <div className="text-xs uppercase tracking-widest font-semibold text-gray-500 mb-12">
             ОТБОР / КАЧЕСТВО СРЕДЫ
@@ -354,7 +404,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="program" className="py-32 px-8 lg:px-16 bg-black text-white">
+      <section id="program" className="py-40 px-8 lg:px-16 bg-black text-white">
         <div className="container mx-auto max-w-7xl">
           <div className="text-xs uppercase tracking-widest font-semibold text-gray-600 mb-12">
             ПРОГРАММА / ГОДОВОЙ ПУТЬ
@@ -414,7 +464,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="application-form" className="py-32 px-8 lg:px-16 bg-[#5443ff] text-white">
+      <section id="application-form" className="py-40 px-8 lg:px-16 bg-[#5443ff] text-white">
         <div className="container mx-auto max-w-7xl">
           <div className="text-xs uppercase tracking-widest font-semibold text-white/60 mb-12">
             ЗАЯВКА / ВСТУПЛЕНИЕ
@@ -425,7 +475,7 @@ const Index = () => {
           </h2>
           
           <p className="text-2xl text-white/80 mb-24 max-w-3xl font-light">
-            Если ты перерос(ла) разговоры — значит, пора delaem
+            Если ты перерос(ла) разговоры — значит, пора наконец делать
           </p>
 
           <div className="grid lg:grid-cols-2 gap-20">
