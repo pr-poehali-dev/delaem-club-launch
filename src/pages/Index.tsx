@@ -55,10 +55,10 @@ const Index = () => {
                   <path d="M2 10C50 3 100 15 150 8C200 1 250 12 298 6" stroke="#C1DF54" strokeWidth="3" strokeLinecap="round"/>
                 </svg>
               </span>,<br />
-              а <span className="text-[#C1DF54] relative inline-block">
+              а <span className="text-[#C1DF54] relative inline-block px-4">
                 делают
-                <svg className="absolute -bottom-3 -left-2 -right-2 w-[calc(100%+16px)]" viewBox="0 0 200 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <ellipse cx="100" cy="15" rx="95" ry="12" stroke="#C1DF54" strokeWidth="3" fill="none"/>
+                <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                  <rect x="3" y="3" width="194" height="94" rx="20" stroke="#C1DF54" strokeWidth="4" fill="none"/>
                 </svg>
               </span>
             </h1>
